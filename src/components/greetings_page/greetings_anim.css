@@ -1,0 +1,36 @@
+@keyframes bottomFade {
+    from {
+        transform: translateY(-100%);
+      opacity: 0;
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@-moz-keyframes bottomFade {
+    from {
+        transform: translateY(100%);
+      opacity: 0;
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-webkit-keyframes bottomFade {
+    from {
+        transform: translateY(100%);
+      opacity: 0;
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@-o-keyframes bottomFade {
+    from {
+        transform: translateY(100%);
+      opacity: 0;
+    } to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

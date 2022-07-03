@@ -1,0 +1,36 @@
+@import url("./fonts.css");
+@import url(essential.css);
+
+.nav-bar {
+  float: right;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  z-index: -2;
+  margin: 2% 3% 3%;
+  
+}
+.nav-bar a {
+    color: #dedede;
+    margin-right: 40px;
+    font-family: "CeraCY-Regular", sans-serif;
+    text-decoration: none;
+}
+.nav-bar a:hover {
+    color:#ffffff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+.menu-text {
+    font-family: "CeraCY-Bold", sans-serif;
+    color: #ffffff;
+}
+.menu-text.logo {
+    font-size: 32px;
+    line-height: 0.7;
+}
+#logo {
+    all: unset;
+    cursor: pointer;
+    margin: 2% 3% 3%;
+}

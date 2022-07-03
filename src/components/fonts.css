@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "CeraCY-Regular";
+  src: url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.eot");
+  src: url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a1ab9bebae84d82fbcfe930c4643de7a.svg#CeraCY-Regular")
+      format("svg");
+}
+@font-face {
+    font-family: "CeraCY-Bold";
+    src: url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.eot");
+    src: url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.eot?#iefix")
+        format("embedded-opentype"),
+      url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.woff2")
+        format("woff2"),
+      url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.woff")
+        format("woff"),
+      url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.ttf")
+        format("truetype"),
+      url("//db.onlinewebfonts.com/t/6a28a1fb5b77054a12626d0c23c92aa2.svg#CeraCY-Bold")
+        format("svg");
+  }
+@keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #fff;
+    }
+    25% {
+      text-shadow: 0 0 30px #fff;
+    }
+    50% {
+      text-shadow: 0 0 50px #fff;
+    }
+    100% {
+      text-shadow: 0 0 70px #fff;
+    }
+}

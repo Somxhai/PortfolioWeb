@@ -1,0 +1,61 @@
+@import url(greetings_anim.css);
+@import url(/src/components/essential.css);
+
+
+.text {
+    font-family: "CeraCY-Regular", sans-serif;
+    color: #ffffff;
+    font-size: 1em;
+}
+.container {
+    justify-items: center;
+    text-align: center;
+}
+
+.fadeup {
+    position: relative;
+    animation: bottomFade 3s;
+    -moz-animation: bottomFade 2s; /* Firefox */
+    -webkit-animation:bottomFade 2s; /* Safari and Chrome */
+    -o-animation: bottomFade 2s; /* Opera */
+}
+
+@media screen and (min-width: 400px){
+    .container {
+        justify-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .cloud.first {
+        width: 40%;
+        min-width: 320px;
+        z-index: -100;
+        top: 40%;
+        left: 15%;
+    }
+}
+#myName {
+    font-family: "CeraCY-Bold", sans-serif !important;
+    font-size: 8em;
+}
+@media screen and (min-width: 1280px) {
+    .cloud.first {
+    width: 30%;
+    min-width: 320px;
+    z-index: -100;
+    top: 25%;
+    left: 35%;
+}
+    
+}
+
+
+.cloud {
+    position: absolute;
+    object-fit: cover;
+    height: auto;
+    opacity: 0.75;
+}
+
+
+
